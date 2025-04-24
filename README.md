@@ -14,21 +14,17 @@ Dự án này là một ứng dụng CRUD đơn giản sử dụng **Node.js**, 
 
 ---
 
-## 🚀 Cài đặt
+## 🔗 Cấu hình MongoDB
 
-### Backend
+Tạo file `.env` trong thư mục `backend` với nội dung sau:
 
-```bash
-cd backend
-npm install
+```env
+JWT_SECRET = dm9sZW1lbjMxMjE0MTAzMTlAQEBA
+URI_MONGODB_CLOUD = mongodb+srv://menvo100vo:h3eKSP9aB6bSp1kd@cluster0.et2eh.mongodb.net/user-management?retryWrites=true&w=majority&appName=Cluster0
+BASE_URL_REACTJS = http://localhost:3000/
 ```
 
-### Frontend
-
-```bash
-cd frontend
-npm install
-```
+> Bạn có thể thay đổi `user-management` theo tên cơ sở dữ liệu mong muốn.
 
 ---
 
@@ -57,20 +53,6 @@ npm start
 ```
 
 > Mặc định chạy tại: `http://localhost:3000`
-
----
-
-## 🔗 Cấu hình MongoDB
-
-Tạo file `.env` trong thư mục `backend` với nội dung sau:
-
-```env
-JWT_SECRET = dm9sZW1lbjMxMjE0MTAzMTlAQEBA
-URI_MONGODB_CLOUD = mongodb+srv://menvo100vo:h3eKSP9aB6bSp1kd@cluster0.et2eh.mongodb.net/user-management?retryWrites=true&w=majority&appName=Cluster0
-BASE_URL_REACTJS = http://localhost:3000/
-```
-
-> Bạn có thể thay đổi `user-management` theo tên cơ sở dữ liệu mong muốn.
 
 ---
 
