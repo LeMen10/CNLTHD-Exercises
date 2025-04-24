@@ -83,14 +83,3 @@ BASE_URL_REACTJS = http://localhost:3000/
 - RESTful API
 
 ---
-
-## 👨‍💻 Tác giả
-
-- [Tên bạn hoặc tên nhóm phát triển]
-
----
-
-## 📌 Ghi chú
-
-- Đảm bảo MongoDB đã được cài đặt và đang chạy trên máy tính của bạn.
-- Có thể sử dụng MongoDB Atlas thay vì MongoDB local nếu muốn triển khai trên cloud.
