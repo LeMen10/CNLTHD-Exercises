@@ -14,6 +14,24 @@ Dự án này là một ứng dụng CRUD đơn giản sử dụng **Node.js**, 
 
 ---
 
+## 🚀 Cài đặt
+
+### Backend
+
+```bash
+cd backend
+npm install
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+```
+
+---
+
 ## 🔗 Cấu hình MongoDB
 
 Tạo file `.env` trong thư mục `backend` với nội dung sau:
