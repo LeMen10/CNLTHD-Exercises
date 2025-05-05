@@ -38,7 +38,6 @@ Tạo file `.env` trong thư mục `backend` với nội dung sau:
 
 ```env
 JWT_SECRET = dm9sZW1lbjMxMjE0MTAzMTlAQEBA
-URI_MONGODB_CLOUD = mongodb+srv://menvo100vo:h3eKSP9aB6bSp1kd@cluster0.et2eh.mongodb.net/user-management?retryWrites=true&w=majority&appName=Cluster0
 BASE_URL_REACTJS = http://localhost:3000/
 ```
 
